@@ -1,0 +1,334 @@
+/******************
+    Fonts & Text
+*******************/
+
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+html, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p, li, ul, a
+.pure-g [class *= "pure-u"] {
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	width:100%;
+}
+
+li {
+    list-style: none;
+    padding-bottom: 1.0em;
+}
+
+.no_bottom_pad {
+    padding-bottom: 0em;
+}
+
+ul {
+    list-style: none;
+}
+
+.notice {
+    letter-spacing: 0em;
+    margin:0 auto;
+    display:block;
+    margin-bottom: 32px;
+    font-family: Lato, sans-serif;
+}
+
+.invisible {
+    padding-bottom: 32px;
+}
+
+
+/***********************
+    Centering Stuff
+************************/
+
+/* Centering text */
+.center {
+	text-align: center!important;
+}
+
+.top-excess {
+    margin-top: 0;
+}
+
+.bottom-excess {
+    margin-bottom: 10px;
+}
+
+/* Vertical centering nonsense for bubble text */
+.text {
+	position: relative;
+	height: 250px;
+	margin: 50vh auto 0;
+	transform: translateY(-50%);
+}
+
+.list-inline {
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/************************
+    Background & Text Colors
+*************************/
+.bg-darker {
+	background-color: #dbd6f5;
+}
+
+.bg-darkest {
+    background-color: #776fab;
+}
+
+.purple {
+    background-color:#dbd6f5!important;
+}
+
+.white {
+    color:white!important;
+}
+
+/************
+    Menu
+*************/
+
+/* Navbar */
+.custom-wrapper {
+    background-color: #776fab;
+    -webkit-font-smoothing: antialiased;
+    height: 3em;
+    overflow: hidden;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    transition: height 0.5s;
+}
+
+/* Link padding */
+.pure-menu-link {
+    padding: 1em 1em;
+}
+
+/* Height of mobile menu */
+.custom-wrapper.open {
+    height: 19.5em;
+}
+
+
+.custom-menu-3 {
+    text-align: right;
+}
+
+/* Toggled mobile menu */
+.custom-toggle {
+    width: 34px;
+    height: 34px;
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 0;
+    display: none;
+}
+
+/* Hamburger bar */
+.custom-toggle .bar {
+    background-color: #ffffff;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 100px;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+
+.custom-toggle .bar:first-child {
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+
+.custom-toggle.x .bar {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.custom-toggle.x .bar:first-child {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+@media (max-width: 47.999em) {
+
+    .custom-menu-3 {
+        text-align: left;
+    }
+
+    .custom-menu-2 {
+        padding-top: 18px;
+    }
+
+    .custom-toggle {
+        display: block;
+    }
+
+    .pure-menu-link {
+        padding: 0.7em 1em;
+    }
+}
+
+/* This only works on desktop atm */
+.menu {
+	background:#776fab;
+	/*rgb(150, 69, 150)*/
+	padding-right:10px;
+}
+
+/* Makes logo stay in place */
+.logo {
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    *display: inline;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.menu > img {
+    object-fit: contain;
+    max-height: 100%;
+}
+
+.pure-menu-link:hover{
+	background-color: #847ac6;
+}
+
+.circle {
+	border-radius: 50%;
+	width: 250px!important;
+	height: 250px!important;
+}
+
+.top {
+	padding-top: 51px;
+}
+
+/************************
+    Round-edged boxes
+*************************/
+
+/* Events page */
+.round {
+    background-color: white;
+    border-radius: .8em;
+    padding: 1em;
+    margin: 2em;
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+
+/* Other pages */
+.round-w {
+    width: 100%;
+	background-color: white;
+	border-radius: .8em;
+	padding: 1em;
+	margin: 2em;
+	margin-top: 0;
+    margin-bottom: 0;
+}
+
+.round-2 {
+    background-color: white;
+    border-radius: .8em;
+    padding: 1em;
+    margin: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.round-p {
+	width: 100%;
+	background-color: #dbd6f5;
+	border-radius: .8em;
+	padding: 1em;
+	margin: 2em;
+	margin-top: 0;
+    margin-bottom: 0;
+}
+
+.flippy {
+	width: 250px;
+	height: 250px!important;
+}
+
+/* Responsive images */
+.responsive-img {
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+/**************
+    Forms
+***************/
+.pure-form input[readonly]{
+	background-color: #fff;
+}
+
+/***********
+    VC
+***********/
+
+.card-header {
+    position: absolute;
+}
+
+.card-header a {
+    color:white;
+}
+
+
+/*************
+    Footer
+**************/
+
+.footer a {
+    text-decoration: none;
+
+}
+
+.black {
+    color:black;
+}
+
+.salmon {
+    color:#CD9B9B;
+}

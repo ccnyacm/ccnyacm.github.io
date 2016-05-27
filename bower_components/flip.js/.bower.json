@@ -1,0 +1,34 @@
+{
+  "name": "flip.js",
+  "homepage": "https://github.com/codenameyau/flip.js",
+  "authors": [
+    "Jorge Yau <jyau01@citymail.cuny.edu>"
+  ],
+  "description": "Flip cards with minimal effort",
+  "main": "build/flip.min.js",
+  "keywords": [
+    "flip",
+    "flip.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "public",
+    "gulpfile.js",
+    "*.md"
+  ],
+  "_release": "058ccdb89f",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "058ccdb89fc9a3b0ffa174334fc14775786a9a3b"
+  },
+  "_source": "git://github.com/codenameyau/flip.js.git",
+  "_target": "*",
+  "_originalSource": "flip.js",
+  "_direct": true
+}

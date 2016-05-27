@@ -1,0 +1,19 @@
+/* Follow this example to style your flip cards */
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300);
+
+.flip-front, .flip-back {
+  letter-spacing: 1px;
+}
+
+.card-message {
+  margin-top: 90px;
+}
+/* The following styles are used for the layout */
+.container {
+  width: 780px;
+  margin: 30px auto;
+}
+
+.flip {
+  margin: 20px auto;
+}
