@@ -54,33 +54,33 @@
         <div class="pure-u-1">
             <h2 class="center">General ACM E-mail</h2>
             <form class="pure-form center">
-                <input type="button" class="pure-button" onclick="dispEmail()" value="Click Here">
-                <input type="text" id="emaddrtext" readOnly=true size="27" />
+                <input type="button" class="pure-button" onclick="dispEmailACM()" value="Click Here">
+                <input type="text" id="acm-email" readOnly=true size="27" />
             </form>
             <h2 class="center">President</h2>
             <form class="pure-form center">
-                <input type="button" class="pure-button" onclick="dispEmail2()" value="Click Here">
-                <input type="text" id="emaddrPresident" readOnly=true size="27" />
+                <input type="button" class="pure-button" onclick="dispEmailPresident()" value="Click Here">
+                <input type="text" id="president-email" readOnly=true size="27" />
             </form>
             <h2 class="center">Vice-President</h2>
             <form class="pure-form center">
-                <input type="button" class="pure-button" onclick="dispEmail3()" value="Click Here">
-                <input type="text" id="emaddrtext3" readOnly=true size="27" />
+                <input type="button" class="pure-button" onclick="dispEmailVicePresident()" value="Click Here">
+                <input type="text" id="vicepresident-email" readOnly=true size="27" />
             </form>
             <h2 class="center">Secretary</h2>
             <form class="pure-form center">
-                <input type="button" class="pure-button" onclick="dispEmail4()" value="Click Here">
-                <input type="text" id="emaddrSecretary" readOnly=true size="27" />
+                <input type="button" class="pure-button" onclick="dispEmailSecretary()" value="Click Here">
+                <input type="text" id="secretary-email" readOnly=true size="27" />
             </form>
             <h2 class="center">Treasurer</h2>
             <form class="pure-form center">
-                <input type="button" class="pure-button" onclick="dispEmail6()" value="Click Here">
-                <input type="text" id="emaddrtext6" readOnly=true size="27" />
+                <input type="button" class="pure-button" onclick="dispEmailTreasurer()" value="Click Here">
+                <input type="text" id="treasurer-email" readOnly=true size="27" />
             </form>
             <h2 class="center">Webmaster</h2>
             <form class="pure-form center" style="padding-bottom: 4em">
-                <input type="button" class="pure-button" onclick="dispEmail5()" value="Click Here">
-                <input type="text" id="emaddrtext5" readOnly=true size="27" />
+                <input type="button" class="pure-button" onclick="dispEmailWebmaster()" value="Click Here">
+                <input type="text" id="webmaster-email" readOnly=true size="27" />
             </form>
         </div>
     </div>
@@ -141,9 +141,9 @@
 
     <!-- This is generated using Professor Skeith's antispam fun thing that can be found here: https://web.archive.org/web/20080416142658/http://www.binaryskeith.com/antiSpam.html -->
 
-    <!-- ACM Email Script -->
+    <!-- ACM Email -->
     <script type="text/javascript">
-		function dispEmail() {
+		function dispEmailACM() {
 			var s = new String();
 			var a = new Array();
 			var a2 = new Array();
@@ -182,14 +182,14 @@
 			a2[15] = 49;
 			a2[16] = -98;
 			s = String.fromCharCode(a[0] + a2[0], a[1] + a2[1], a[2] + a2[2], a[3] + a2[3], a[4] + a2[4], a[5] + a2[5], a[6] + a2[6], a[7] + a2[7], a[8] + a2[8], a[9] + a2[9], a[10] + a2[10], a[11] + a2[11], a[12] + a2[12], a[13] + a2[13], a[14] + a2[14], a[15] + a2[15], a[16] + a2[16]);
-			var x = document.getElementById("emaddrtext");
+			var x = document.getElementById("acm-email");
 			x.value = s;
 			x.select();
 		}
     </script>
     <!-- President -->
     <script type="text/javascript">
-		function dispEmail2() {
+		function dispEmailPresident() {
 			var s=new String();
 			var a=new Array();
 			var a2=new Array();
@@ -248,14 +248,14 @@
 			a2[25] = 34;
 			a2[26] = -115;
 			s = String.fromCharCode(a[0]+a2[0],a[1]+a2[1],a[2]+a2[2],a[3]+a2[3],a[4]+a2[4],a[5]+a2[5],a[6]+a2[6],a[7]+a2[7],a[8]+a2[8],a[9]+a2[9],a[10]+a2[10],a[11]+a2[11],a[12]+a2[12],a[13]+a2[13],a[14]+a2[14],a[15]+a2[15],a[16]+a2[16],a[17]+a2[17],a[18]+a2[18],a[19]+a2[19],a[20]+a2[20],a[21]+a2[21],a[22]+a2[22],a[23]+a2[23],a[24]+a2[24],a[25]+a2[25],a[26]+a2[26]);
-			var x=document.getElementById("emaddrPresident");
+			var x=document.getElementById("president-email");
 			x.value = s;
 			x.select();
 		}
     </script>
     <!-- Vice-President -->
     <script type="text/javascript">
-		function dispEmail3() {
+		function dispEmailVicePresident() {
 			var s = new String();
 			var a = new Array();
 			var a2 = new Array();
@@ -314,14 +314,14 @@
 			a2[25] = 96;
 			a2[26] = 7;
 			s = String.fromCharCode(a[0] + a2[0], a[1] + a2[1], a[2] + a2[2], a[3] + a2[3], a[4] + a2[4], a[5] + a2[5], a[6] + a2[6], a[7] + a2[7], a[8] + a2[8], a[9] + a2[9], a[10] + a2[10], a[11] + a2[11], a[12] + a2[12], a[13] + a2[13], a[14] + a2[14], a[15] + a2[15], a[16] + a2[16], a[17] + a2[17], a[18] + a2[18], a[19] + a2[19], a[20] + a2[20], a[21] + a2[21], a[22] + a2[22], a[23] + a2[23], a[24] + a2[24], a[25] + a2[25], a[26] + a2[26]);
-			var x = document.getElementById("emaddrtext3");
+			var x = document.getElementById("vicepresident-email");
 			x.value = s;
 			x.select();
 		}	
     </script>
     <!-- Secretary -->
     <script type="text/javascript">
-		function dispEmail4() {
+		function dispEmailSecretary() {
 			var s=new String();
 			var a=new Array();
 			var a2=new Array();
@@ -368,14 +368,78 @@
 			a2[19] = -82;
 			a2[20] = -8;
 			s = String.fromCharCode(a[0]+a2[0],a[1]+a2[1],a[2]+a2[2],a[3]+a2[3],a[4]+a2[4],a[5]+a2[5],a[6]+a2[6],a[7]+a2[7],a[8]+a2[8],a[9]+a2[9],a[10]+a2[10],a[11]+a2[11],a[12]+a2[12],a[13]+a2[13],a[14]+a2[14],a[15]+a2[15],a[16]+a2[16],a[17]+a2[17],a[18]+a2[18],a[19]+a2[19],a[20]+a2[20]);
-			var x=document.getElementById("emaddrSecretary");
+			var x=document.getElementById("secretary-email");
 			x.value = s;
 			x.select();
 		}
     </script>
-
+	
+	<!-- Treasurer -->
     <script type="text/javascript">
-		function dispEmail5() {
+        function dispEmailTreasurer() {
+            var s=new String();
+            var a=new Array();
+            var a2=new Array();
+            a[0] = 25;
+            a[1] = 65;
+            a[2] = 211;
+            a[3] = 181;
+            a[4] = 254;
+            a[5] = 109;
+            a[6] = 43;
+            a[7] = 179;
+            a[8] = 45;
+            a[9] = 207;
+            a[10] = 245;
+            a[11] = 52;
+            a[12] = 2;
+            a[13] = 18;
+            a[14] = 163;
+            a[15] = 31;
+            a[16] = 160;
+            a[17] = 97;
+            a[18] = 251;
+            a[19] = 234;
+            a[20] = 47;
+            a[21] = 242;
+            a[22] = 124;
+            a[23] = 83;
+            a[24] = 100;
+            a2[0] = 74;
+            a2[1] = 56;
+            a2[2] = -114;
+            a2[3] = -71;
+            a2[4] = -206;
+            a2[5] = -61;
+            a2[6] = 5;
+            a2[7] = -115;
+            a2[8] = 54;
+            a2[9] = -102;
+            a2[10] = -129;
+            a2[11] = 69;
+            a2[12] = 107;
+            a2[13] = 79;
+            a2[14] = -58;
+            a2[15] = 77;
+            a2[16] = -114;
+            a2[17] = 2;
+            a2[18] = -134;
+            a2[19] = -124;
+            a2[20] = 74;
+            a2[21] = -196;
+            a2[22] = -23;
+            a2[23] = 17;
+            a2[24] = 17;
+            s = String.fromCharCode(a[0]+a2[0],a[1]+a2[1],a[2]+a2[2],a[3]+a2[3],a[4]+a2[4],a[5]+a2[5],a[6]+a2[6],a[7]+a2[7],a[8]+a2[8],a[9]+a2[9],a[10]+a2[10],a[11]+a2[11],a[12]+a2[12],a[13]+a2[13],a[14]+a2[14],a[15]+a2[15],a[16]+a2[16],a[17]+a2[17],a[18]+a2[18],a[19]+a2[19],a[20]+a2[20],a[21]+a2[21],a[22]+a2[22],a[23]+a2[23],a[24]+a2[24]);
+            var x=document.getElementById("treasurer-email");
+            x.value = s;
+            x.select();
+        }
+    </script>
+
+	<!-- Webmaster -->
+    <script type="text/javascript">
+		function dispEmailWebmaster() {
 			var s = new String();
 			var a = new Array();
 			var a2 = new Array();
@@ -438,74 +502,10 @@
 			a2[27] = -115;
 			a2[28] = -136;
 			s = String.fromCharCode(a[0] + a2[0], a[1] + a2[1], a[2] + a2[2], a[3] + a2[3], a[4] + a2[4], a[5] + a2[5], a[6] + a2[6], a[7] + a2[7], a[8] + a2[8], a[9] + a2[9], a[10] + a2[10], a[11] + a2[11], a[12] + a2[12], a[13] + a2[13], a[14] + a2[14], a[15] + a2[15], a[16] + a2[16], a[17] + a2[17], a[18] + a2[18], a[19] + a2[19], a[20] + a2[20], a[21] + a2[21], a[22] + a2[22], a[23] + a2[23], a[24] + a2[24], a[25] + a2[25], a[26] + a2[26], a[27] + a2[27], a[28] + a2[28]);
-			var x = document.getElementById("emaddrtext5");
+			var x = document.getElementById("webmaster-email");
 			x.value = s;
 			x.select();
 		}
-    </script>
-
-
-    <script type="text/javascript">
-        function dispEmail6() {
-            var s=new String();
-            var a=new Array();
-            var a2=new Array();
-            a[0] = 25;
-            a[1] = 65;
-            a[2] = 211;
-            a[3] = 181;
-            a[4] = 254;
-            a[5] = 109;
-            a[6] = 43;
-            a[7] = 179;
-            a[8] = 45;
-            a[9] = 207;
-            a[10] = 245;
-            a[11] = 52;
-            a[12] = 2;
-            a[13] = 18;
-            a[14] = 163;
-            a[15] = 31;
-            a[16] = 160;
-            a[17] = 97;
-            a[18] = 251;
-            a[19] = 234;
-            a[20] = 47;
-            a[21] = 242;
-            a[22] = 124;
-            a[23] = 83;
-            a[24] = 100;
-            a2[0] = 74;
-            a2[1] = 56;
-            a2[2] = -114;
-            a2[3] = -71;
-            a2[4] = -206;
-            a2[5] = -61;
-            a2[6] = 5;
-            a2[7] = -115;
-            a2[8] = 54;
-            a2[9] = -102;
-            a2[10] = -129;
-            a2[11] = 69;
-            a2[12] = 107;
-            a2[13] = 79;
-            a2[14] = -58;
-            a2[15] = 77;
-            a2[16] = -114;
-            a2[17] = 2;
-            a2[18] = -134;
-            a2[19] = -124;
-            a2[20] = 74;
-            a2[21] = -196;
-            a2[22] = -23;
-            a2[23] = 17;
-            a2[24] = 17;
-            s = String.fromCharCode(a[0]+a2[0],a[1]+a2[1],a[2]+a2[2],a[3]+a2[3],a[4]+a2[4],a[5]+a2[5],a[6]+a2[6],a[7]+a2[7],a[8]+a2[8],a[9]+a2[9],a[10]+a2[10],a[11]+a2[11],a[12]+a2[12],a[13]+a2[13],a[14]+a2[14],a[15]+a2[15],a[16]+a2[16],a[17]+a2[17],a[18]+a2[18],a[19]+a2[19],a[20]+a2[20],a[21]+a2[21],a[22]+a2[22],a[23]+a2[23],a[24]+a2[24]);
-            var x=document.getElementById("emaddrtext6");
-            x.value = s;
-            x.select();
-        }
-
     </script>
 </body>
 
